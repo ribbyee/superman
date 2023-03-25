@@ -1,4 +1,4 @@
-local Settingsmodule = game:GetService("Players").zevoIos.Backpack["Steel Longsword"].Scripts.Settings
+local Settingsmodule = game:GetService("Players").slevian.Backpack["Steel Longsword"].Scripts.Settings
 local x = require(Settingsmodule)
 x.Parry_Time = 0.5
 x.Attack_After_Parry = 0.14
