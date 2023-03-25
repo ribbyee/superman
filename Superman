@@ -1,0 +1,31 @@
+local Settingsmodule = game:GetService("Players").zevoIos.Backpack["Steel Longsword"].Scripts.Settings
+local x = require(Settingsmodule)
+x.Parry_Time = 0.5
+x.Attack_After_Parry = 0.14
+local cooldowns
+x.Last_Hit = true
+x.Last_hit = 0.2
+x.Equip_Delay = 0.1
+x.Between = 0.01
+x.Parry = 0.01
+x.Last_Hiy = 0.1
+local
+autoParry = true
+Parry = true
+GetParried = false
+AntiParry = true
+ParryAnimationDelay = 9
+Parry_Animation = 100
+InstaParry= true
+Holster = true
+HoldToParry = true
+RightClickParry= true
+x.ParriedEvent = false
+x.SparksEmitter= false
+ParriedEvent = false
+x.Animation_Speed = 0.99
+x.Parry_Second = 0.20
+local Parry = true
+local ParryAfterSwing = true
+local Parry_Second = true
+local Parry_Second = 0.9
